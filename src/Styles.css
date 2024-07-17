@@ -1,0 +1,75 @@
+
+.TransactionList{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #f8f9fa;
+    border-top: 0.2em solid #ced4da;
+    border-bottom: 0.2em solid #ced4da;    
+}
+
+.Balance {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.balanceAmount {
+    margin-top: 0;
+}
+
+.balanceName{
+    margin-bottom: 0;
+}
+
+.Income {
+    border-right: 0.2em solid #ced4da;
+    padding-right: 4.5em;
+}
+
+
+.historyList {
+    padding-left: 0;
+    background-color: #f8f9fa;
+    border-radius: 0.5em;
+
+}
+
+.historyName {
+    display: flex;
+    padding-bottom: 0.2em;
+    border-bottom: 0.1em solid #ced4da;
+}
+
+.expenseTracker {
+    padding: 0.2em;
+    border-bottom: 0.2em solid #ced4da;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    padding: 0.5em;
+    border-bottom: 0.2em solid #ced4da;
+   
+   
+}
+
+
+.textBox, .amountBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    background-color: #f8f9fa;
+    font-style: oblique;
+}
+
+.inputText, .amountText{
+    width: 60%;
+    height: 2.5em;
+    font-size: medium;
+    
+}
